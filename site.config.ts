@@ -6,7 +6,7 @@ const config = siteConfig({
 	author: {
 		name: "Hank Sun",
 		email: "shk1717@163.com",
-		link: "https://your.website"
+		link: "https://shlock7.github.io"
 	},
 	description: "A modern Astro theme focused on content creation.",
 	copyright: {

@@ -38,7 +38,7 @@ import ZeoSevenFonts from "./src/fonts/zeo-seven-fonts";
 
 // https://astro.build/config
 export default defineConfig({
-	site: "https://thought-lite.vercel.app",
+	site: "https://shlock7.github.io",
 	trailingSlash: "never",
 	i18n: {
 		...siteConfig.i18n,
