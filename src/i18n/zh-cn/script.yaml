@@ -14,7 +14,7 @@ new:
     name: 随笔
   note:
     description: 具有深度，经过深思熟虑的长篇作品
-    name: 文记
+    name: 博客
   open:
     error: 无法打开 VS Code
     message: 使用 VS Code 打开此文件？

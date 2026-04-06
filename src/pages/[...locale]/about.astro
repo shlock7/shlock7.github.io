@@ -17,10 +17,12 @@ const t = i18nit(locale);
 const localePrefix = monolocale ? "" : `${locale}/`;
 
 const introduction = await getEntry("information", `${localePrefix}introduction`);
+const projects = await getEntry("information", `${localePrefix}projects`);
 const linkroll = await getEntry("information", `${localePrefix}linkroll`);
 const chronicle = (await getEntry("information", `${localePrefix}chronicle`))?.data;
 
 const { Content: Introduction } = introduction ? await render(introduction) : ({} as any);
+const { Content: Projects } = projects ? await render(projects) : ({} as any);
 const { Content: Linkroll } = linkroll ? await render(linkroll) : ({} as any);
 
 const chronicles = Object.entries<string[]>(chronicle ?? {})
@@ -37,6 +39,16 @@ const chronicles = Object.entries<string[]>(chronicle ?? {})
 						<h2 class="mb-4">{t("about.introduction")}</h2>
 						<div class="markdown">
 							<Introduction />
+						</div>
+					</div>
+				)
+			}
+			{
+				projects && (
+					<div class="mb-6">
+						<h2 class="mb-4">{t("about.projects")}</h2>
+						<div class="markdown">
+							<Projects />
 						</div>
 					</div>
 				)

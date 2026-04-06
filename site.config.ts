@@ -2,16 +2,16 @@ import siteConfig from "./src/utils/config";
 
 const config = siteConfig({
 	title: "码到成功",
-	prologue: "If you need a website\nthat loads fast and has great SEO, then Astro is for you.",
+	prologue: "这个人很懒，什么也没留下～",
 	author: {
 		name: "Hank Sun",
 		email: "shk1717@163.com",
 		link: "https://shlock7.github.io"
 	},
-	description: "A modern Astro theme focused on content creation.",
+	description: "Hank 的个人博客.",
 	copyright: {
 		type: "CC BY-NC-ND 4.0",
-		year: "2025"
+		year: "2026"
 	},
 	i18n: {
 		locales: ["zh-cn"],

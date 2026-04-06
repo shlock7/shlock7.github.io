@@ -2,7 +2,7 @@
 title: 孔乙己
 timestamp: 1919-03-01 00:00:00+08:00
 series: 呐喊
-tags: [Literature, Demo]
+tags: [Literature]
 description: 鲁迅先生的经典短篇小说，描写了在封建社会中受到教育却无法融入社会的知识分子孔乙己的悲剧命运。
 ---
 

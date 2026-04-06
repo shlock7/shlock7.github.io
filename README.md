@@ -1,29 +1,3 @@
-# ThoughtLite
-
-<div align="center">
-    <p>
-        <img alt="ThoughtLite Light Mode Preview" src=".github/assets/preview-light.webp">
-        <img alt="ThoughtLite Dark Mode Preview" src=".github/assets/preview-dark.webp">
-    </p>
-    <p>
-        <a href="https://github.com/tuyuritio/astro-theme-thought-lite/releases/latest"><img alt="GitHub Release" src="https://img.shields.io/github/v/release/tuyuritio/astro-theme-thought-lite"></a>
-        <a href="https://raw.githubusercontent.com/tuyuritio/astro-theme-thought-lite/refs/heads/main/LICENSE"><img alt="GitHub License" src="https://img.shields.io/github/license/tuyuritio/astro-theme-thought-lite"></a>
-        <a href="https://deepwiki.com/tuyuritio/astro-theme-thought-lite"><img alt="Ask DeepWiki" src="https://deepwiki.com/badge.svg"></a>
-    </p>
-    <p>A modern <a href="https://astro.build/">Astro</a> theme, focused on content creation 🌟</p>
-    <p>
-        <small><ins>English</ins></small>
-        <small><a href="README.zh-cn.md">简体中文</a></small>
-        <small><a href="README.ja.md">日本語</a></small>
-    </p>
-</div>
-
-> [!NOTE]
-> - `main` branch✅: Static build, can be deployed on any static hosting platform.
-> - `cloudflare` branch: Enables built-in comment system, only deployable on Cloudflare.
-
-🎬 **Live Demo**: [Vercel](https://thought-lite.vercel.app/)
-
 ## ✨ Features
 
 - [x] **Responsive Design** - Adaptive for mobile, tablet, and desktop.
@@ -76,17 +50,17 @@ For i18n configuration, refer to the [Internationalization Configuration Guide](
 
 The theme provides the following commonly used commands:
 
-| Command | Action |
-| --- | --- |
-| `pnpm install` | Install project dependencies |
-| `pnpm update` | Update project dependencies |
-| `pnpm new` | Create a new content file |
-| `pnpm dev` | Start the local development server (default: `http://localhost:4321`) |
-| `pnpm check` | Run Astro type checking |
-| `pnpm build` | Build the production version |
-| `pnpm preview` | Preview the built site |
-| `pnpm format` | Format code |
-| `pnpm lint` | Lint code |
+| Command        | Action                                                                |
+| -------------- | --------------------------------------------------------------------- |
+| `pnpm install` | Install project dependencies                                          |
+| `pnpm update`  | Update project dependencies                                           |
+| `pnpm new`     | Create a new content file                                             |
+| `pnpm dev`     | Start the local development server (default: `http://localhost:4321`) |
+| `pnpm check`   | Run Astro type checking                                               |
+| `pnpm build`   | Build the production version                                          |
+| `pnpm preview` | Preview the built site                                                |
+| `pnpm format`  | Format code                                                           |
+| `pnpm lint`    | Lint code                                                             |
 
 ## 🚀 Deployment
 
@@ -150,7 +124,3 @@ All kinds of contributions are welcome and appreciated!
 - [astro-vitesse](https://github.com/adrian-ub/astro-vitesse)
 - [Miniblog](https://github.com/nicholasdly/miniblog)
 - [AstroPaper with I18n](https://github.com/yousef8/astro-paper-i18n)
-
-## 📜 License
-
-This project is licensed under [GPLv3](LICENSE), allowing free modification and distribution, but the original copyright notice must be retained.

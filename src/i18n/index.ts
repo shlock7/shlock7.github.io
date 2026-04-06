@@ -5,9 +5,6 @@ import enLinkroll from "./en/linkroll.yaml";
 import zhCN from "./zh-cn/index.yaml";
 import zhCNScript from "./zh-cn/script.yaml";
 import zhLinkroll from "./zh-cn/linkroll.yaml";
-import ja from "./ja/index.yaml";
-import jaScript from "./ja/script.yaml";
-import jaLinkroll from "./ja/linkroll.yaml";
 
 // Translation object mapping locale codes to their respective translation data
 const translations = {
@@ -20,11 +17,6 @@ const translations = {
 		index: zhCN,
 		script: zhCNScript,
 		linkroll: zhLinkroll
-	},
-	ja: {
-		index: ja,
-		script: jaScript,
-		linkroll: jaLinkroll
 	}
 };
 

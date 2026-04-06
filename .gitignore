@@ -35,3 +35,7 @@ wrangler.toml
 
 # jetbrains setting folder
 .idea/
+
+
+# other
+docs/

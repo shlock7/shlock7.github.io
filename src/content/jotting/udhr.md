@@ -4,6 +4,7 @@ timestamp: 1948-12-10 00:00:00+00:00
 tags: [UnitedNations, Demo]
 top: 1
 description: 联合国大会于 1948 年通过的重要文件，确立了人类基本权利和自由的普遍标准和原则。
+draft: true
 ---
 
 ## 序言
