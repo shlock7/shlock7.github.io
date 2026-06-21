@@ -1,7 +1,7 @@
 ---
 title: 使用 Spring MCP Server Boot Starter 快速构建一个 MCP 服务
 timestamp: 2026-06-20 16:54:33
-series: MCP 网关
+# series: MCP 网关
 tags: [MCP, LLM]
 description: 基于 Spring AI 框架，实现一个简单的 MCP 服务，为后续做mcp协议的分析和验证进行使用。
 toc: true
